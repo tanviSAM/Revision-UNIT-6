@@ -1,0 +1,20 @@
+*{
+  background-color: #fcf5fa;
+}
+.tagHead3 {
+  width: 80%;
+  padding: 2%;
+  display: flex;
+  /* border: 1px solid red; */
+  margin: auto;
+  text-align: center;
+  font-family: Playfair Display, serif;
+  letter-spacing: 0em;
+  font-size: 14px;
+  font-weight: bold;
+}
+.catBar {
+  margin: auto;
+  text-align: center;
+  /* border: 1px solid red; */
+}
