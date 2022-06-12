@@ -109,7 +109,7 @@ export const Addprod = () => {
         </div>
 
         <input
-          onClick={() => navigate("/product")}
+          // onClick={() => navigate("/product")}
           className="submit"
           type="submit"
           value="Submit"

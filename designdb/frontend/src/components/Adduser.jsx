@@ -93,7 +93,7 @@ export const Adduser = () => {
         </div>
 
         <input
-          onClick={() => navigate("/user")}
+          // onClick={() => navigate("/user")}
           className="submit"
           type="submit"
           value="Submit"

@@ -93,7 +93,7 @@ export const Addbrands = () => {
         </div> 
 
         <input
-          onClick={() => navigate("/brand")}
+          // onClick={() => navigate("/brand")}
           className="submit"
           type="submit"
           value="Submit"
