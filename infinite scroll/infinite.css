@@ -1,0 +1,16 @@
+p {
+  width: 40%;
+  height: 30px;
+  /* border: 1px solid red; */
+  margin: auto;
+  text-align: center;
+  padding: 1%;
+  color: #f26161;
+  font-size: 20px;
+  font-weight: bold;
+  /* font-family: Verdana, Geneva, sans-serif; */
+  border: 1px solid #f29191;
+  box-shadow: 10px 10px 8px -2px rgba(0, 0, 0, 0.44);
+  background-color: #f0cdcddd;
+  margin-top: 30px;
+}
