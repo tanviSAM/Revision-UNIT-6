@@ -1,7 +1,28 @@
-
 Q.1 How is redux different from context API?
+    Context API : Built-in tool that ships with React
+    Redux : Additional installation Required, driving up the final bundle size
 
-Q.2 what does useSelector do?
+    Context API : Requires minimal Setup
+    Redux : Requires extensive setup to integrate it with a React Application
+
+    Context API : Specifically designed for static data, that is not often refreshed or updated
+    Redux : Works like a charm with both static and dynamic data
+
+    Context API : Adding new contexts requires creation from scratch
+    Redux : Easily extendible due to the ease of adding new data/actions after the initial setup
+
+    Context API : Debugging can be hard in highly nested React Component Structure even with Dev Tool
+    Redux : Incredibly powerful Redux Dev Tools to ease debugging
+
+    Context API : UI logic and State Management Logic are in the same component
+    Redux : Better code organization with separate UI logic and State Management Logic
+
+Q.2 What does useSelector do?
+    useSelector is a function that takes the current state as an argument and returns whatever data you want from it
+    and it allows you to store the return values inside a variable within the scope of you functional components instead
+    of passing down as props.
+
+    useSelector() hook is equivalent of mapStateToProps
 
 Q.3 What is immutability?
 
