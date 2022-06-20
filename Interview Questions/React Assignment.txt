@@ -1,0 +1,36 @@
+
+Q.1 How is redux different from context API?
+
+Q.2 what does useSelector do?
+
+Q.3 What is immutability?
+
+Q.4 Why do we need to spread the state in redux?
+
+Q.5 What does Object.freeze() do?
+
+Q.6 Why is immutability required by Redux?
+
+Q.7 How does Redux use shallow equality checking?
+
+Q.8 How well does Redux “scale” in terms of performance and architecture?
+
+Q.9 How does Redux compare to the React Context API?
+
+FAQs of redux https://redux.js.org/faq/
+
+Q.1 What is JSX?
+Q.2 What is Conditional Rendering?
+Q.3 What is tree-shaking ?
+Q.4 What are some features of using webpack?
+Q.5 What are Controlled and Uncontrolled components?
+Q.6 What is flux architecture?
+Q.7 What does React.useCallback do?
+Q.8 What does React.memo mean?
+Q.9 What is Higher-order Components?
+Q.10 What are keys in React? Why are keys important?
+Q.11 What is reconciliation?
+Q.12 Explain life cycle diagram with hooks?
+Q.13 What does the cleanup function in useEffect do?
+Q.14 What are the rules of hooks?
+Q.15 Explain redux to a 5 year old (ELI5) ?
