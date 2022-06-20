@@ -1,0 +1,109 @@
+MONGODB - INTERVIEW QUESTIONS
+
+Q1. What are SQL Databases? What are some companies that use Mongo, what type of applications are these?
+
+        SQL is Structured Query Language, which is a computer language for storing, manipulating and retrieving
+        data stored in a relational database.
+        SQL is the standard language for Relational Database System. All the Relational Database Management
+        Systems (RDMS) like MySQL, MS Access, Oracle, Sybase, Informix, Postgres and SQL Server use SQL as
+        their standard database language.
+        Also, they are using different dialects, such as:
+        -MS SQL Server using T-SQL,
+        -Oracle using PL/SQL,
+        -MS Access version of SQL is called JET SQL (native format) etc.
+
+        Some Real-World Companies That Use MongoDB 
+        -eBay
+            eBay is a multinational company that provides a platform for the customer to customer sales. It is
+        currently running a large number of projects in MongoDB like merchandising categorization, cloud management,
+        metadata storage, search suggestions.
+
+        -MetLife
+            MetLife is a leading company in employee benefit programs, annuities, and insurance. There are more than
+        90 million customers in the Middle East, Europe, Aisa, Latin America, Japan, United States. MetLife is using 
+        MongoDB for its advanced customer service application called The Wall.
+            This application provides a combined view of transactions, policy details, and other details of MetLife
+        Customers. It looks like Wall of Facebook, which takes data from 70 legacy systems and merges it into a single
+        record. It stores 24 Terabytes of data and runs across six servers in two data centers. MetLife is working on a
+        series of Big Data projects where MongoDB-based applications are part of it.
+
+        -Shutterfly
+                Shutterfly is one of the most popular online photo sharing, and it is using MongoDB to manage and store 
+            more than 6 billion images, which has a transaction rate of up to 10,000 operations per second. Shutterfly 
+            earlier used Oracle but later transitioned to MongoDB.
+                Shutterfly company realized that moving to a non-relational database will help them to increase their
+            scalability, performance, and productivity of the programmer.
+                Shutterfly did consider many other alternate database systems like BerkeleyDB, CouchDB, or Cassandra. The
+            company has confirmed that they are pleased with their decision of transitioning from Oracle to MongoDB.
+
+        -Aadhar
+            It is India’s Unique Identification project, which has the biggest biometrics database in the world. Aadhar 
+            Project is using MongoDB as its database to store a massive amount of demographic and biometric data of more
+            than 1.2 billion Indians. MongoDB is being used for the storage of images in the Aadhar project.
+
+        -EA
+            Ea is an online multiplayer game that is using MongoDB Database for its game called FIFA Online 3. MongoDB can 
+            easily handle complicated things that need synchronization with each other entirely.
+
+        Practical MongoDB Use Cases
+            Some documents are called MongoDB Use Case documents, which will help in introducing the operations used, designs, 
+        and patterns in MongoDB application development. Data Modeling Strategies and Application Design will be highlighted 
+        in these documents. If you are a beginner and would like to learn more, check out our digital marketing training from 
+        top universities. 
+            It will also give some special attention to scaling, sharding, performance, and indexing. Three case studies will be 
+        described, which are: content management case studies, product data management case studies, and operational
+        intelligence case studies.
+
+Q2. What are NoSQL Databases? What are some companies that use Mongo, what type of applications are these?
+
+Q3. What is the difference between SQL and NoSQL databases?
+
+Q4. What are some features of MongoDB?
+
+Q5. What are aggregate queries?
+
+Q6. What are pipelines in aggregation?
+
+Q7. How do you do aggregate queries?
+
+Q8. How can you group by a particular value in MongoDB?
+
+Q9. How can you paginate on MongoDB?
+
+Q10. How can you sort in MongoDB?
+
+Q11. What is indexing in MongoDB? Why do we need to use indexing? What are pros and cons for indexing?
+
+Q12. Write the query for indexing a field in MongoDB?
+
+Q13. What is the improvement in performance in MongoDB?
+
+Q14. What is the data structure used for indexing?
+
+Q15. Are values sorted in indexes?
+
+Q16. What are Replica Sets in MongoDB?
+
+Q17. Explain the structure of ObjectID in MongoDB.
+
+Q18. By default, which index is created by MongoDB for every collection?
+
+Q19. In which format MongoDB represents document structure?
+
+Q20. What is the limitation of a document in MongoDB?
+
+Q21. What is the difference between MongoDB and Redis database?
+
+Q22. How can you add references between multiple collections?
+
+Q23. What are lookup in aggregation for MongoDB?
+
+Q24. What are graph lookups?
+
+Q25. What is the alternative for lookups for SQL?
+
+Q26. How can you do one to many relation in MongoDB?
+
+Q27. How can you do many to many relation in MongoDB?
+
+Q28. How can you do one to zillion relation in MongoDB?

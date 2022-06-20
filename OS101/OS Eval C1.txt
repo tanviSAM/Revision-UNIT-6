@@ -1,0 +1,113 @@
+Q1. a)Difference between tight coupling and loose coupling.
+    b) What is the Difference between High Cohesion and Low Cohesion? Also provide Examples.
+
+a) A Loose coupling helps in following GOF program principle to interface, where as Tight coupling provides no concept of interface.
+   A Loose coupling improves test ability unlike Tight coupling that is not good at the test-ability.
+   A Loose coupling is highly changeable whereas a Tight coupling has no such capability.
+   In a Loose coupling it is much easier to swap codes between classes as compaired to Tight coupling.
+
+b) HC: gives better-maintaining facility
+   LC: is hard to maintain
+
+   HC: a well-defined job is done in a class
+   LC: a lot of (uncommon) jobs are done in class
+
+   Example:
+    HC => class A {
+            checkEmail()
+            verifyEmail()
+            sendEmail()
+            printName()
+            printAdd()
+    }
+
+    LC => class A{
+                checkEmail()
+            }
+            class B{
+                verifyEmail()
+            }
+            class C{
+                sendEmail()
+            }
+            class D{
+                printName()
+            }
+            class D{
+                printAdd()
+            }
+
+Q2  a) Explain DRY principle and how can we achieve it
+    b) Explain the KISS principle with Example.
+
+a) DRY: Don't Repeat Yourself
+   In coding we aim at reducing or avoiding repetition of information such as navbar, footer, button or icons. If these similar on
+   each page or appear frequently on the same page you don't neet to rewrite the code everytime. We can use a module and call it
+   where ever required. 
+
+b) KISS: Keep It Simple, Stupid
+   The goal of ths priciple is to achieve a simple and clear, non-cluttered code that is easy to understand.
+   Example-
+   var name= n;
+   var address= a;
+   var number= num;
+   var pincode= pin;
+
+   var obj= {
+    name: n,
+    address: a;
+    number: num,
+    pincode: pin
+   }
+
+Q4. What is a DeadLock ? And what are methods by which we can handle deadLock.
+
+Deadlock situation is where a set of processes are blocked because each process is holding a resource and waiting for another
+resource acquired by some other process.
+Deadlock can arise if the following four conditions hold simultaneously
+    -Mutual Exclusion: Two or more resources are non-shareable.
+    -Hold and Wait: A process is holding at least one resource and waiting for resources. 
+    -No Preemption: A resource cannot be taken from a process unless the process releases the resource. 
+    -Circular Wait: A set of processes are waiting for each other in circular form. 
+
+Q5. What is a HTTP protocol? Difference between HTTP and HTTPS.
+
+HTTP : Hypertext Transfer Protocol
+HTTP is the protocol that is used to transfer data on the web. It is an essential part of the Internet protocol and defines services
+used for transmitting webpage data. HTTP uses server-client model i.e computer, laptop, or mobile device as clients. The HTTP server
+is typically a web host running web server software.
+
+HTTP status code ranges are:
+    1. 1xx: Information
+    2. 2xx: Success
+    3. 3xx: Redirect
+    4. 4xx: Client Error
+    5. 5xx: Server Error
+
+Difference Between HTTP & HTTPS
+-	HTTP stands for HyperText Transfer Protocol.
+    HTTPS for HyperText Transfer Protocol Secure.
+
+-	In HTTP the url begins with “http://”.
+    In HTTPsthe url begins with “https://”.
+    
+-   HTTP faster than HTTPS.
+    HTTPS slower than HTTP.
+
+-   HTTP is considered to be unsecure.
+    HTTPS is considered as secure.
+    
+-   HTTP does not improve search ranking.
+    HTTPS helps in improving search ranking.
+
+-   HTTP works at Application Layer.
+    HTTPS works at Transport Layer.
+	
+-   Encryption is absent in HTTP.
+    Encryption is present in HTTPS.
+	
+-	HTTP does not require any certificates.
+    HTTPS needs SSL(Secure Sockets Layer) Certificates.
+	
+	
+	
