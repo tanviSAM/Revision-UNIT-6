@@ -4,9 +4,6 @@ const connect = require("./src/configs/db");
 
 app.use(express.json());
 
-// app.use("/", (req, res) => {
-//   res.send("Hi");
-// });
 const userController = require("./src/controllers/user.controller");
 app.use("/user", userController);
 
