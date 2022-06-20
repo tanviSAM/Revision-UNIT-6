@@ -1,0 +1,64 @@
+Q1 What is Caching? How can you save money with Caching?
+
+Q2 What is load balancing?
+
+Q3 What is CAP Theorem?
+
+Q4 What is PACELC Theorem?
+
+Q5 What is Eventual Consistency?
+
+Q6 What is Strong Consistency?
+
+Q7 What are the different types of databases?
+
+Q8 What are message queues?
+
+Q9 Which service by Amazon Web Services (AWS) can you use for Queues?
+
+Q10 What is Pub Sub ?
+
+Q11 What are webhooks?
+
+Q12 What is Docker? Why do we use it?
+
+Q13 What is S3 Service in AWS?
+
+Q14 What is EC2 Instance in AWS?
+
+Q15 What is Cloudfront in AWS?
+
+Q16 What is Route 53 In AWS?
+
+Q17 What are ELBs in AWS?
+
+Q18 What is TLS?
+
+Q19 What is the difference HTTPS vs HTTP?
+
+Difference Between HTTP & HTTPS
+-	HTTP stands for HyperText Transfer Protocol.
+    HTTPS for HyperText Transfer Protocol Secure.
+
+-	In HTTP the url begins with “http://”.
+    In HTTPsthe url begins with “https://”.
+    
+-   HTTP faster than HTTPS.
+    HTTPS slower than HTTP.
+
+-   HTTP is considered to be unsecure.
+    HTTPS is considered as secure.
+    
+-   HTTP does not improve search ranking.
+    HTTPS helps in improving search ranking.
+
+-   HTTP works at Application Layer.
+    HTTPS works at Transport Layer.
+	
+-   Encryption is absent in HTTP.
+    Encryption is present in HTTPS.
+	
+-	HTTP does not require any certificates.
+    HTTPS needs SSL(Secure Sockets Layer) Certificates.
+
+Q20 What is a reverse proxy?
