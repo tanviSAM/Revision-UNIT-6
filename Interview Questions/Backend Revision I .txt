@@ -1,20 +1,92 @@
 Q1 Explain in brief what is node js?
+    Node.js is an extremely powerful JavaScript-based platform used to develop online chat applications, video streaming
+    sites, single-page applications, and many other I/O-intensive web applications and web apps. Built on the JavaScript
+    V8 Engine of Google Chrome, It is used by large, established companies and newly-minted startups alike (Netflix,
+    Paypal, NASA, and Walmart, to name a few).
+
+    Node.js is open-source and completely free, used by thousands of developers around the world. It brings plenty of
+    advantages to the table, making it a better choice than other server-side platforms like Java or PHP.
+
+    Node.js is an open-source, cross-platform JavaScript runtime environment and library for running web applications
+    outside the client's browser. Ryan Dahl developed it in 2009, and its latest iteration, version 15.14, was released
+    in April 2021. Developers use Node.js to create server-side web applications, and it is perfect for data-intensive
+    applications since it uses an asynchronous, event-driven model.
 
 Q2 How is node js non-blocking?
+    Non-Blocking refers to the program that does not block the execution of further operations. Non-Blocking methods
+    are executed asynchronously. Asynchronously means that the program may not necessarily execute line by line. The program
+    calls the function and move to the next operation and does not wait for it to return.
 
 Q3 What is throughput?
+    Throughput is a measurement used for describing the number of requests per time
+    unit handled by any given web service or application. One of the ways of increasing
+    throughput is by making the application more concurrent, that is – to make it
+    process more requests simultaneously.
+
+    This can be achieved by adding extra hardware resources or by maximizing
+    utilization of the available resources
 
 Q4 How is Node js having high IO throughput?
+    - Node.js is asynchronous and single-threaded. This means that all I/O operations don’t block any other operations. It also
+      means that you can send emails, read files, query the database, etc. all at the same time.
+    - Each request to the web-server won’t create a separate Node.js process. Although, one Node.js process would run at all
+      times which would listen to the connections. JavaScript code is also executed in the process’ main thread while all other
+      I/O operations are executed in separate threads which results in almost no delays.
+    - The virtual machine in Node.js (V8) which is responsible for executing JavaScript consists of a JIT compilation. The virtual
+      machine can take the source code to compile it into the machine code at runtime. What it means is that all the “hot”
+      functions that get called often than not can be compiled to the machine code thus boosting the execution speed.
 
 Q5 What are CPU intensive tasks?
+    CPU intensive tasks are complex user actions that eat up more RAM. A few of such processes can shut down your server entirely.
+
+    Naturally, you want  to make sure that your app or website is ‘smart’ enough to handle different kinds of tasks, for each
+    individual user request.
 
 Q6 How can you end up blocking your main thread in node.js?
+    Blocking is when the execution of additional JavaScript in the Node.js process must wait until a non-JavaScript operation
+    completes. This happens because the event loop is unable to continue running JavaScript while a blocking operation is
+    occurring.
+
+    In Node.js, JavaScript that exhibits poor performance due to being CPU intensive rather than waiting on a non-JavaScript
+    operation, such as I/O, isn't typically referred to as blocking. Synchronous methods in the Node.js standard library
+    that use libuv are the most commonly used blocking operations. Native modules may also have blocking methods.
+
+    All of the I/O methods in the Node.js standard library provide asynchronous versions, which are non-blocking, and accept
+    callback functions. Some methods also have blocking counterparts, which have names that end with Sync.
+
+    Node.js uses non-blocking I/O, the mechanism that allows you to have a single thread of execution running your program.
+    If Node.js had to use blocking I/O, you wouldn’t be able to do anything else while waiting for an I/O to complete.
 
 Q7 What is the event loop?
+    The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a single
+    thread, but using a few smart data structures, it gives us the illusion of multi-threading. Let’s take a look at
+    what happens on the back-end.
 
 Q8 What are different phases in event loop?
+    The Event Loop contains six main phases:
+    - timers
+    - I/O callbacks
+    - preparation / idle phase
+    - I/O polling
+    - setImmediate() callbacks execution
+    - close events callbacks
 
 Q9 What is process.tick?
+    When we pass a function to process.nextTick(), we instruct the engine to invoke this function at the end of the
+    current operation, before the next event loop tick starts:
+
+        process.nextTick(() => {
+        // write code here
+        });
+
+    The event loop is busy processing the current function code. When this operation ends, the JS engine runs all the functions
+    passed to nextTick calls during that operation. It's the way we can tell the JS engine to process a function asynchronously
+    (after the current function), but as soon as  possible, not queue it.
+
+    Calling setTimeout(() => {}, 0) will execute the function at the end of next tick, much later than when using nextTick()
+    which prioritizes the call and executes it just before the beginning of the next tick.
+
+    So we use nextTick() when you want to make sure that in the next event loop iteration that code is already executed.
 
 Q10 When can process.tick starve your event loop?
 
