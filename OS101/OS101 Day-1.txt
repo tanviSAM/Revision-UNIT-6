@@ -1,0 +1,54 @@
+Q1.Explain what is Loose Coupling and Tight Coupling. Also show the
+examples of code having tight coupling and how you can make it loosely
+coupled?
+
+Coupling refers to the usage of an object by another object. It can also
+be termed as collaboration. This dependency of one object on another object
+to get some task done can be classified into the following two types −
+>Tight coupling - When an object creates the object to be used, then it is
+a tight coupling situation. As the main object creates the object itself,
+this object can not be changed from outside world easily marked it as tightly
+coupled objects.
+>Loose coupling - When an object gets the object to be used from the outside,
+then it is a loose coupling situation. As the main object is merely using the
+object, this object can be changed from the outside world easily marked it as
+loosely coupled objects.
+
+Q2.What is High cohesion and how is it helpful?
+
+A highly cohesive class is one that only comprise responsibilities which belong
+together. A class ideally has a single responsibility.
+
+High cohesion is a software engineering concept that refers to how closely all
+the routines in a class, or all the code in a routine, support a central purpose.
+Classes that contain strongly related functionalities are described as having high
+cohesion; the heuristic goal is to make cohesion as high as possible.
+
+Q3 State KISS and YAGNI principle.
+
+Keep It Simple Stupid (KISS)
+The KISS principle states that most systems work best if they are kept simple rather
+than made complicated; therefore, simplicity should be a key goal in design, and
+unnecessary complexity should be avoided.
+
+Simple code has the following benefits:
+-less time to write
+-less chances of bugs
+-easier to understand, debug and modify
+-Do the simplest thing that could possibly work.
+
+You Aren't Gonna Need It (YAGNI)
+It is an Extreme Programming (XP) practice which states: "Always implement things when
+you actually need them, never when you just foresee that you need them."
+
+Even if you're totally, totally, totally sure that you'll need a feature, later on,
+don't implement it now. Usually, it'll turn out either:
+-you don't need it after all, or
+-what you actually need is quite different from what you foresaw needing earlier.
+-This doesn't mean you should avoid building flexibility into your code. It mean
+ you shouldn't overengineer something based on what you think you might need later on.
+
+There are two main reasons to practice YAGNI:
+-You save time because you avoid writing code that you turn out not to need.
+-Your code is better because you avoid polluting it with 'guesses' that turn out to
+be more or less wrong but stick around anyway.

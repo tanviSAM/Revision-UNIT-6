@@ -1,0 +1,68 @@
+Assignment OS101 (Networking and Security)
+
+Q.1 Explain what HTTP is and how it is Unidirectional?
+        Hypertext Transfer Protocol, HTTP is the protocol used to transfer data
+    over the web. It is part of the Internet protocol suite and defines commands and
+    services used for transmitting webpage data. HTTP uses a server-client model. A client,
+    for example, may be a home computer, laptop, or mobile device.
+
+        The HTTP server is typically a web host running web server software, such as
+    Apacheor IIS. When you access a website, your browser sends a request to the
+    corresponding web server and it responds with an HTTP status code. If the URL is valid
+    and the connection is granted, the server will send your browser the webpage and
+    related files.
+
+    Some common HTTP status codes include:
+    1. 200 - successful request (the webpage exists)
+    2. 401 - unauthorized request (authorization required)
+    3. 500 - internal server error (often caused by an incorrect server configuration)
+
+Q.2 What is IPv4 and IPv6?
+    - IPv4 is a version 4 of IP. It is a current version and the most commonly used IP address.
+      It is a 32-bit address written in four numbers separated by 'dot', i.e., periods. This
+      address is unique for each device.
+
+    - IPv6 is the next generation of IP addresses. The main difference between IPv4 and
+      IPv6 is the address size of IP addresses. The IPv4 is a 32-bit address, whereas IPv6 is
+      a 128-bit hexadecimal address.IPv6 provides a large address space, and it contains a
+      simple header as compared to IPv4.
+
+Q.3 What is DNS?
+    The Domain Name System (DNS) is the phonebook of the Internet. Humans access
+    information online through domain names, like nytimes.com or espn.com. Web
+    browsers interact through Internet Protocol (IP) addresses. DNS translates domain
+    names to IP addresses so browsers can load Internet resources.
+
+Q.4 Explain what CDN is ?
+    CDN (Computer Delivery Network) is a system of distributed servers that deliver web
+    pages and other web content to a user based on the geographic locations of the
+    user, the origin of the webpage and a content delivery server.
+
+Q.5 What is a DeadLock?
+    Deadlock is a situation where a set of processes are blocked because each process is holding
+    a resource and waiting for another resource acquired by some other process.
+
+    Deadlock can arise if the following four conditions hold simultaneously (Necessary Conditions) 
+    -Mutual Exclusion:
+        Two or more resources are non-shareable (Only one process can use at a time) 
+    -Hold and Wait:
+        A process is holding at least one resource and waiting for resources. 
+    -No Preemption:
+        A resource cannot be taken from a process unless the process releases the resource. 
+    -Circular Wait:
+        A set of processes are waiting for each other in circular form. 
+
+    Methods for handling deadlock:
+    1.  Deadlock prevention or avoidance: The idea is to not let the system into a deadlock state. 
+        One can zoom into each category individually, Prevention is done by negating one of above
+        mentioned necessary conditions for deadlock. 
+        Avoidance is kind of futuristic in nature. By using strategy of “Avoidance”, we have to make
+        an assumption. We need to ensure that all information about resources which process will need
+        are known to us prior to execution of the process. We use Banker’s algorithm in order to
+        avoid deadlock. 
+
+    2.  Deadlock detection and recovery: Let deadlock occur, then do preemption to handle it once
+        occurred. 
+
+    3.  Ignore the problem altogether: If deadlock is very rare, then let it happen and reboot the
+        system. This is the approach that both Windows and UNIX take. 
