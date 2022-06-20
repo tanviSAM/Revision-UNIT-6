@@ -1,0 +1,55 @@
+Q1 Explain in brief what is node js?
+
+Q2 How is node js non-blocking?
+
+Q3 What is throughput?
+
+Q4 How is Node js having high IO throughput?
+
+Q5 What are CPU intensive tasks?
+
+Q6 How can you end up blocking your main thread in node.js?
+
+Q7 What is the event loop?
+
+Q8 What are different phases in event loop?
+
+Q9 What is process.tick?
+
+Q10 When can process.tick starve your event loop?
+
+Q11 What is the difference between setTimeout and setInterval?
+
+Q12 How can you make a network request with http module from the backend?
+
+Q13 How can you create your own events?
+
+Q14 What are clusters?
+
+Q15 How does your Node.js application handle scale? Elaborate
+
+Q16 What is the difference between readFile and readFileSync?
+
+Q17 What are CORS? How do you configure them? Why do you need them?
+
+Q18 What is rate limiting?
+
+Q19 How does middlewares work in express?
+
+Q20 What is the difference between Encryption and Hashing?
+
+Q21 What is the difference between https and http?
+
+Q22 What is TLS?
+
+Q23 What is AES?
+
+Q24 What is JWT Token? Why do we need to use JWT? What are some pros and cons?
+
+Q25 What is salting? Where do we store salt?
+
+Q26 What is the difference between authorisation and Authentication?
+
+Q27 What is the difference between JS on the browser and node?
+
+Q28 What is V8?
