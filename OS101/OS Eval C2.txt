@@ -36,9 +36,6 @@ Q2  What is CAP theorem, discuss a scenario where CAP theorem helps you choose a
     consistency or availability:
         a.  High consistency comes at the cost of lower availability.
         b.  High availability comes at the cost of lower consistency.
-        c.  Consistency in CAP is different than that of ACID. Consistency in CAP means having the most up-to-date
-            information. (ACID refers to a different database event. In ACID, consistency means any new transaction
-            to the database won’t corrupt the database.)
 
 Q3  What are SOLID principles? Explain with examples wherever possible.
 
@@ -68,4 +65,6 @@ Q4  In the following diagram (it intentionally contains pseudo code) There is an
 
     A.  Which of the design principles: solid principles or clean code pattern is being violated in this scenario.
     B.  Rectify/fix it with the best practices and also demonstrate the corresponding pseudo code.
+
+    A. Single-responsibility principle is being violated.
 
