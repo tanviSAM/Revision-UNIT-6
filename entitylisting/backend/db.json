@@ -7,6 +7,7 @@
     "display_price": "$40",
     "price": "40",
     "size": "30ml",
+    "type": "Serum",
     "discription": "Meet Strawberry Smooth: Gently smooth texture, clear breakouts, and refine pores, while calming skin with our most powerful, yet gentle daily clarifying BHA+AHA serum.__Powered by our 10% Clarity Acid Complex™–a special blend of 2% salicylic acid & mandelic acid (AHA+BHA), strawberry, azelaic acid, and succinic acid–this serum gently smooths texture, clears breakouts, and refines pores, while calming skin. These clarifying qualities are balanced with hydrating & soothing ingredients like hyaluronic acid & allantoin to add moisture and protect your skin for a soft-glow finish. It’s time to ditch over drying acid treatments & get Strawberry smooth!",
     "fruit": "Strawberry",
     "skin_concern": "Breakout & Acne"
@@ -19,6 +20,7 @@
     "display_price": "$39",
     "price": "39",
     "size": "60ml",
+    "type": "Moisturizer",
     "discription": "90% of this silky glow moisturizer is spiked with vitamin and amino acid-rich watermelon extract, plumping hyaluronic acid, and soothing botanicals like peony and jasmine extracts. This 100% oil free cooling gel-emulsion absorbs instantly to seal in hydration and prep skin for the day ahead. Antioxidants guard against free radicals and repair damaged cells along the way. Used morning and night, it drenches skin in luscious, long-lasting moisture.",
     "fruit": "Watermelon",
     "skin_concern": "Dullness & Uneven Tone"
@@ -31,6 +33,7 @@
     "display_price": "$34",
     "price": "34",
     "size": "30ml",
+    "type": "Toner",
     "discription": "Get your glow on & give back for Pride Month with our new, limited edition  Pride Watermelon Glow PHA + BHA Pore-Tight Toner. 100% of profits✝ of this limited edition Pride toner will be donated to nonprofit organizations empowering LGBTQIA+ youth globally as part of our Glow for Good Social Impact Program. LEARN MORE about our pledge to donate $1M in monetary & product donations by the end of 2022.__The clinically effective & innovative formula works to prep and plump your skin with hydration while visibly clearing & reducing the appearance of pores. Formulated with hydrating watermelon & cactus water extract that delivers a healthy glow, and gentle PHA + BHA’s that decongest pores and exfoliate for a plump and prepped skin to absorb the rest of your routine.",
     "fruit": "Watermelon",
     "skin_concern": "Darkspots & Hyperpigmentation"
@@ -43,6 +46,7 @@
     "display_price": "$34",
     "price": "34",
     "size": "40ml",
+    "type": "Mist",
     "discription": "Reveal a dewy glow instantly and over time with this niacinamide-infused highlighting serum, formulated without mica, glitter, or pearls. This first of its kind highlighting skincare + makeup hybrid helps visibly brighten skin and deliver an effortless glow instantly and over time, while helping to reduce hyperpigmentation and without leaving a gray cast.__This emulsion creates a lightweight, buildable texture that quickly absorbs, making it suitable for all skin types including oily or acne prone. Watermelon Glow Niacinamide Dew Drops can be used as a hydrating highlighting serum before moisturizer or as the last step of your routine to add an instant glossy finish.",
     "fruit": "Watermelon",
     "skin_concern": "Fine Lines & Wrinkles"
@@ -55,6 +59,7 @@
     "display_price": "$39",
     "price": "39",
     "size": "50ml",
+    "type": "Moisturizer",
     "discription": "Hydrate, plump & balance skin with our new whipped gel cream moisturizer that fills each skin layer with long-lasting, plumping hydration for a dewy glow. Skin-Balancing. Quick-Absorbing. Non-Greasy. Meet your new favorite moisturizer in a first of its kind refillable jar.  Powerhouse ingredients polyglutamic acid, multi-weight hyaluronic acid, plum, and ice willowherb provide deep, long lasting hydration while balancing excess oil to deliver plump, glowing skin. ",
     "fruit": "Plum",
     "skin_concern": "Dryness"
@@ -67,6 +72,7 @@
     "display_price": "$45",
     "price": "45",
     "size": "30ml",
+    "type": "Serum",
     "discription": "Brighten dark spots & even skin tone with our new clinically advanced Guava Vitamin C Dark Spot Serum, a potent brightening serum that treats & prevents dark spots with 5 forms of vitamin C, guava, and tranexamic & ferulic acids for glowing, even-toned skin.__Unlike any other vitamin C serum, our Guava Vitamin C Dark Spot Serum delivers clinically-effective ingredients in a stable formula. This silky non-sticky gel is quick absorbing and stays a beautiful pink hue (even over time), while delivering a radiant glow.__Made to brighten the radiance of all skin types, this serum’s Vitamin C encapsulation technology treats and prevents dark spots over time and brightens skin without any harsh irritation.",
     "fruit": "Guava",
     "skin_concern": "Darkspots & Hyperpigmentation"
@@ -79,6 +85,7 @@
     "display_price": "$60",
     "price": "60",
     "size": "80ml",
+    "type": "Gift Set",
     "discription": "Meet Plumbo-- The jumbo version of our best-selling Plum Plump Hyaluronic Serum (double the size!) For every sold, we’ll donate $5 worth of product (up to $150,000) to Project Beauty Share who provides personal hygiene, cosmetics and beauty products to non-profit organizations who serve women and families overcoming abuse, addiction, homelessness and poverty.",
     "fruit": "Plum",
     "skin_concern": "Dullness & Uneven Tone"
@@ -91,6 +98,7 @@
     "display_price": "$34",
     "price": "34",
     "size": "150ml",
+    "type": "Toner",
     "discription": "Hydrate skin and tighten pores at once with the ultra-gentle Watermelon Glow PHA + BHA Pore-Tight Toner for supple, smooth skin. An essential part of any good skin-care routine, toners help prep and plump skin to readily absorb the rest of your routine. Our innovative formula contains a balance of hydrating ingredients and pore-tightening actives to equally minimize the look of pores and hydrate skin, with gentle yet effective pore actives such as PHA and BHA.__Inspired by the Korean Aqua Peel Facial which focuses on the duality of exfoliating and hydrating, this pore-tightening, exfoliating toner helps achieve instantly glowing, pillow-soft skin. ",
     "fruit": "Watermelon",
     "skin_concern": "Pores & Oil Control"
@@ -103,6 +111,7 @@
     "display_price": "$34",
     "price": "34",
     "size": "150ml",
+    "type": "Clenser",
     "discription": "his effective yet gentle 3-in-1 bouncy makeup eraser, cleanser, and deep clarifying mask hydrates the skin without stripping it, helping to combat blemishes and breakouts over time. It will also help the rest of your skincare products work a lot better. Yeah, it’s that major.",
     "fruit": "Blueberry",
     "skin_concern": "Dryness"
@@ -115,6 +124,7 @@
     "display_price": "$42",
     "price": "42",
     "size": "30ml",
+    "type": "Serum",
     "discription": "Reduce visible redness and support the skin barrier with the soothing and calming Avocado Ceramide Recovery Serum. Formulated to target dehydration, irritation, and redness, this lightweight milky texture wraps sensitive skin in a healing layer of actives to restore skin to its natural, healthy state. This innovative recipe is created with a blend of powerful plant-based ingredients such as nutrient-rich avocado extract + butter, strengthening ceramides, and calming allantoin and rice milk to help strengthen and recover irritated, compromised skin.",
     "fruit": "Avocado",
     "skin_concern": "Redness & Sensitivity"
@@ -127,6 +137,7 @@
     "display_price": "$40",
     "price": "40",
     "size": "60ml",
+    "type": "Mask",
     "discription": "Meet your ultimate facial in a jar. This non-drying pore facial with hyaluronic acid-infused kaolin clay instantly minimizes the look of pores, evens tone, and hydrates all skin types. Proprietary hyaluronic-acid-infused whipped clay frees skin of cell buildup while chemical exfoliants, watermelon enzymes, BHA, & PHA, clear congested pores. Combined with gentle physically exfoliating micronized blueberry seed powder, this 5-minute facial decongests pores to unveil softer, brighter, and clearer-looking skin.",
     "fruit": "Watermelon",
     "skin_concern": "Pores & Oil Control"
@@ -139,6 +150,7 @@
     "display_price": "$45",
     "price": "45",
     "size": "80ml",
+    "type": "Mask",
     "discription": "The Watermelon Glow Sleeping Mask is a luxuriously bouncy, breathable sleeping mask that smoothes and refines skin, overnight. This pillow-proof formula acts as a radiance-boosting hyaluronic acid face mask, formulated with soothing, amino-acid rich Watermelon Extract, hydrating Hyaluronic Acid, and pore refining AHAs that work while you sleep to gently exfoliate and clarify. It'll quickly become your go-to face mask for glowing skin.",
     "fruit": "Watermelon",
     "skin_concern": "Breakouts & Acne"
@@ -151,6 +163,7 @@
     "display_price": "$28",
     "price": "28",
     "size": "240ml",
+    "type": "Moisturizer",
     "discription": "Wrap your body in Pink Dream Body Cream! Effortlessly smooth skin texture and hydrate your body all-at-once with the Watermelon Glow Pink Dream Body Cream. Treat your body with the same love, attention, and powerful actives found in your daily skincare routine. This luscious body cream is whipped with vitamin-rich watermelon seed butter, naturally smoothing hibiscus AHA, soothing watermelon extract, and multi-weight hyaluronic acid for deep moisture and ultimate comfort. The deliciously creamy lotion leaves skin baby-soft and with a healthy glow.__Inspired by the Korean tradition of rubbing chilled watermelon rind on skin to soothe and cool heat rash and irritation, this lightweight, non-greasy body cream absorbs into the skin in a flash--making it fully pajama-proof! Experience the cult-fave watermelon scent and truly enjoy body care, anytime, anywhere. ",
     "fruit": "Watermelon",
     "skin_concern": "Dullness & Uneven Tone"
@@ -163,6 +176,7 @@
     "display_price": "$32",
     "price": "32",
     "size": "100ml",
+    "type": "Moisturizer",
     "discription": "Reveal smooth, glowing skin from the start of your routine and effortlessly dissolve makeup, dirt, and oil with the PEG-free Papaya Sorbet Enzyme Cleansing Balm. This balm-to-milky oil harnesses naturally-enzymatic, actively smoothing papaya to satisfy and gently resurface skin, creating the ultimate baby-soft canvas for skincare and makeup. The mix of exfoliating and calming papaya seed oil, papaya enzymes, papaya extract, and antioxidant-packed blueberry, leaves skin clean, bouncy, and glowing.__Inspired by the K-Beauty method of double cleansing, or 1:1 Method, which focuses on massaging the products into the skin for 1 full minute for each cleansing step. This ensures that the multiple layers of skin care, makeup, dirt, and oils are all thoroughly removed. Using the 1:1 Method is the key in achieving hydrated, bouncy, clean skin. ",
     "fruit": "Papaya",
     "skin_concern": "Dullness & Uneven Tone"
@@ -175,6 +189,7 @@
     "display_price": "$34",
     "price": "34",
     "size": "50ml",
+    "type": "Sunscreen",
     "discription": "Meet our new lightweight SPF 50 to hydrate, glow, and even skin tone with niacinamide, hyaluronic acid & aloe.__This lightweight daily SPF 50 provides broad spectrum protection with a blend of gentle mineral and chemical sunscreen actives to provide the best of both worlds: ultimate sun protection & blendability. Formulated with hyaluronic acid, niacinamide, watermelon & aloe, this SPF hydrates, soothes, and evens skin tone and texture while it protects. Our skincare-forward formula delivers a dewy glow & protection for every skin tone without white cast, stickiness or greasiness.",
     "fruit": "Watermelon",
     "skin_concern": "Fine Lines & Wrinkles"
@@ -187,6 +202,7 @@
     "display_price": "$25",
     "price": "25",
     "size": "25ml",
+    "type": "Moisturizer",
     "discription": "Banana Soufflé Moisture Cream is a soothing, lightweight moisturizer that resets, replenishes, and seals in a boost of lasting hydration without clogging pores, for all skin types, even acne-prone skin. It is  non-comedogenic and non-acnegenic, making it especially good for sensitive skin. Blended with banana, chia seed, magnesium, turmeric, and cica, this sweet soufflé is your recipe for calmer, hydrated healthy-looking skin.",
     "fruit": "Banana",
     "skin_concern": "Redness & Sensitivity"
@@ -199,6 +215,7 @@
     "display_price": "$42",
     "price": "42",
     "size": "30ml",
+    "type": "Serum",
     "discription": "Plump your skin by filling each skin layer with intense, juicy hydration with the Plum Plump Hyaluronic Serum. Its silky, watergel texture is infused with juicy plum and 5 molecular weights of next-gen hyaluronic acid that fill each skin layer with hydration for visibly plumper skin. Combined with vegan collagen and vegan silk protein, this lightweight, oil-free serum deeply hydrates dry, dehydrated skin and diminishes the appearance of visible fine lines for healthy, bouncy, youthful skin.",
     "fruit": "Plum",
     "skin_concern": "Dryness"
@@ -211,6 +228,7 @@
     "display_price": "$42",
     "price": "42",
     "size": "15ml",
+    "type": "Mask",
     "discription": "Reignite the sparkle in your eyes with a gentle but powerful eye sleeping mask formulated with avocado, encapsulated retinol, coffeeberry, and niacinamide. Long-lasting actives release throughout all hours of the night to help moisturize, brighten, fight fine lines, and de-puff.",
     "fruit": "Avocado",
     "skin_concern": "Fine Lines & Wrinkles"
@@ -223,6 +241,7 @@
     "display_price": "$25",
     "price": "25",
     "size": "25ml",
+    "type": "Moisturizer",
     "discription": "Banana Soufflé Moisture Cream is a soothing, lightweight moisturizer that resets, replenishes, and seals in a boost of lasting hydration without clogging pores, for all skin types, even acne-prone skin. It is  non-comedogenic and non-acnegenic, making it especially good for sensitive skin. Blended with banana, chia seed, magnesium, turmeric, and cica, this sweet soufflé is your recipe for calmer, hydrated healthy-looking skin.",
     "fruit": "Banana",
     "skin_concern": "Redness & Sensitivity"
@@ -235,6 +254,7 @@
     "display_price": "$22",
     "price": "22",
     "size": "8gm",
+    "type": "Balm",
     "discription": "Your favorite do-it-all lip product just got a major upgrade! Exfoliate, hydrate, and deposit the perfect pop of color with the new and improved Watermelon Glow Lip Pop and Blueberry Bounce Lip Pop. ",
     "fruit": "Blueberry",
     "skin_concern": "Dryness"
@@ -247,6 +267,7 @@
     "display_price": "$25",
     "price": "25",
     "size": "75ml",
+    "type": "Mist",
     "discription": "Immerse skin into a hydrating mist so ultra-fine and delicate, it envelops your skin like a dreamy morning fog. This formula is packed with a juicy blend of 84% watermelon, hyaluronic acid, and hibiscus AHAs to refresh skin and enhance makeup.__Besides looking pretty, this bi-phase mist combines two great things into something even better. Shake it before you spray it to mix up the nourishing-oil layer with the water-based active extracts for a haze of softening, smoothing, and illuminating hydration. You’ll love this hydrating mist for its ability to enhance your natural dewy glow and your makeup with a single spritz. ",
     "fruit": "Watermelon",
     "skin_concern": "Dryness"
@@ -259,6 +280,7 @@
     "display_price": "$72",
     "price": "72",
     "size": "2-sets",
+    "type": "Gift Set",
     "discription": "Our two Plum Plump Hyaluronic best-sellers, now in one plumping, hydrating kit!__This powerful hydrating duo set is packed with 5 molecular weights of hyaluronic acid & 3 types of antioxidant-rich plum for intense, juicy hydration and plump, glowing skin.__While the lightweight Plum Plump Hyaluronic Serum works to sink deep into skin to hydrate each layer and help diminish the appearance of visible fine lines, our Plum Plump Hyaluronic cream balances skin with  polyglutamic acid and plumps skin with powerful peptides that deliver a bouncy dewy glow for up to 72 hours*.",
     "fruit": "Plum",
     "skin_concern": "Breakouts & Acne"
@@ -271,6 +293,7 @@
     "display_price": "$49",
     "price": "49",
     "size": "2-sets",
+    "type": "Gift Set",
     "discription": "The Tik Tok famous duo now is available in this exclusive set, featuring our two gone-viral glowy skin favorites.__This duo of Watermelon Glow PHA + BHA Pore-Tight Toner (40ml) and Watermelon Glow Niacinamide Dew Drops (40ml) will leave your skin looking dewy, hydrated & glowing like never before.__Watermelon Glow PHA + BHA Pore-Tight Toner (40ml): Hydrate skin and tighten pores at once with the ultra-gentle Watermelon Glow PHA + BHA Pore-Tight Toner for supple, smooth skin. An essential part of any good skin-care routine, toners help prep and plump skin to readily absorb the rest of your routine. Our innovative formula contains a balance of hydrating ingredients and pore-tightening actives to equally minimize the look of pores and hydrate skin, with gentle yet effective pore actives such as PHA and BHA.__Watermelon Glow Niacinamide Dew Drops (40ml): Reveal a dewy glow instantly and over time with this niacinamide-infused highlighting serum, formulated without mica, glitter, or pearls. This first of its kind highlighting skincare + makeup hybrid helps visibly brighten skin and deliver an effortless glow instantly and over time, while helping to reduce hyperpigmentation and without leaving a gray cast.",
     "fruit": "Watermelon",
     "skin_concern": "Pores & Oil Control"
@@ -283,6 +306,7 @@
     "display_price": "$62",
     "price": "62",
     "size": "2-sets",
+    "type": "Gift Set",
     "discription": "Meet the Pore Care Duo: our must-haves for happy pores. This kit packs a 1-2 punch by decongesting pores while delivering hydration simultaneously, making for a complete, pore-clarifying routine that leaves skin brighter, smoother and deeply hydrated. ",
     "fruit": "Watermelon",
     "skin_concern": "Dryness"
@@ -295,6 +319,7 @@
     "display_price": "$32",
     "price": "32",
     "size": "mini-kit",
+    "type": "Gift Set",
     "discription": "Meet the ultimate starter kit featuring 5 of our clinically effective best-sellers, including our gone-viral Watermelon Glow Niacinamide Dew Drops and Watermelon Glow PHA+BHA {pre-Tight Toner! Harness the power of watermelon and clinically effective actives - PHA, BHA, retinol, and hyaluronic acid - to visibly brighten, tighten pores, gently exfoliate, and hydrate. Discover real results & glowing skin.",
     "fruit": "Mix",
     "skin_concern": "Darkspots & Hyperpigmentation"
@@ -307,6 +332,7 @@
     "display_price": "$48",
     "price": "48",
     "size": "mini-kit",
+    "type": "Gift Set",
     "discription": "Glow Essentials by Mikayla features a hand-picked trio of TikTok Beauty Creator, Mikayla Nogueira’s must-have Glow Recipe products–all in one poppin’ kit.__This limited-edition collab kit includes a full-size Watermelon Glow Niacinamide Dew Drops (Mikayla’s OG favorite product that went viral for its incredible glow), Avocado Ceramide Recovery Serum 15ml & the new Plum Plump Hyaluronic Cream 15ml. Packed with skin-loving watermelon, plum, & avocado and clinically effective actives–brightening Niacinamide, hydrating Hyaluronic Acid, and soothing Ceramides–this set contains everything you need for glowy, poppin’ skin.",
     "fruit": "Mix",
     "skin_concern": "Redness & Sensitivity"
@@ -319,6 +345,7 @@
     "display_price": "$100",
     "price": "100",
     "size": "Value kit",
+    "type": "Gift Set",
     "discription": "We've joined together with 8 fellow AAPI-founded beauty brands to curate a collection of the most-wanted beauty products to celebrate our beautifully diverse cultures & highlight their collective impact on the global beauty industry.",
     "fruit": "Mix",
     "skin_concern": "Breakout & Acne"
@@ -331,6 +358,7 @@
     "display_price": "$68",
     "price": "68",
     "size": "2-sets",
+    "type": "Gift Set",
     "discription": "Deeply hydrate & glow with this pair of best-sellers: Plum Plump Hyaluronic Serum + Watermelon Glow Niacinamide Dew Drops",
     "fruit": "Mix",
     "skin_concern": "Pores & Oil Control"
@@ -343,6 +371,7 @@
     "display_price": "$75",
     "price": "75",
     "size": "2-sets",
+    "type": "Gift Set",
     "discription": "Soothe sensitive skin & instantly plump with the dynamic duo of Avocado Ceramide Recovery Serum + Plum Plump Hyaluronic Serum",
     "fruit": "Mix",
     "skin_concern": "Dullness & Uneven Tone"
@@ -355,6 +384,7 @@
     "display_price": "$78",
     "price": "78",
     "size": "2-sets",
+    "type": "Gift Set",
     "discription": "Boost radiance, treat dark spots & reveal plump, hydrated skin with the powerful pairing of Guava Vitamin C Dark Spot Serum + Plum Plump Hyaluronic Serum.",
     "fruit": "Mix",
     "skin_concern": "Darkspots & Hyperpigmentation"
@@ -367,6 +397,7 @@
     "display_price": "$68",
     "price": "68",
     "size": "2-sets",
+    "type": "Gift Set",
     "discription": "Re-balance and soothe skin & minimize pores with the powerful pair of Avocado Ceramide Recovery Serum + Watermelon Glow Niacinamide Dew Drops",
     "fruit": "Mix",
     "skin_concern": "Redness & Sensitivity"
@@ -378,6 +409,7 @@
     "display_price": "$145",
     "price": "145",
     "size": "Value kit",
+    "type": "Gift Set",
     "discription": "Refine pesky pores while keeping oils in check with our Pore-Tight 5-Step routine, now including our NEW and first of its kind Watermelon Glow Hyaluronic Clay Pore-Tight Facial! We created this 5-step routine to help you treat pores and deeply hydrate skin for a lasting bouncy glow.",
     "fruit": "Mix",
     "skin_concern": "Breakouts & Acne"
@@ -390,6 +422,7 @@
     "display_price": "$115",
     "price": "115",
     "size": "Value kit",
+    "type": "Gift Set",
     "discription": "From genetics to external factors like stress, redness is a tricky skin issue to solve. This curated kit has all the soothing, anti-inflammatory ingredients you need to calm and hydrate stressed skin--now featuring our new Avocado Ceramide Recovery Serum!",
     "fruit": "Mix",
     "skin_concern": "Pores & Oil Control"
@@ -402,6 +435,7 @@
     "display_price": "$78",
     "price": "78",
     "size": "Value kit",
+    "type": "Gift Set",
     "discription": "Brighten & soothe sensitive skin with this dynamic duo of Guava Vitamin C Dark Spot Serum & Avocado Ceramide Recovery Serum",
     "fruit": "Mix",
     "skin_concern": "Dryness"
@@ -414,6 +448,7 @@
     "display_price": "$71",
     "price": "71",
     "size": "2-sets",
+    "type": "Gift Set",
     "discription": "Target dark spots & reveal an instant glow with the powerful pair of Guava Vitamin C Dark Spot Serum + Watermelon Glow Niacinamide Dew Drops.",
     "fruit": "Mix",
     "skin_concern": "Darkspots & Hyperpigmentation"
@@ -426,6 +461,7 @@
     "display_price": "$104",
     "price": "104",
     "size": "Value kit",
+    "type": "Gift Set",
     "discription": "Revive dry and dehydrated skin with this simple 5-step skin-care routine! This curated kit is loaded with hydrating and soothing ingredients to effectively replenish your skin with hydration to reveal a radiant glow from within. ",
     "fruit": "Mix",
     "skin_concern": "Fine Lines & Wrinkles"
@@ -438,6 +474,7 @@
     "display_price": "$12",
     "price": "12",
     "size": "7-Packs",
+    "type": "Gift Set",
     "discription": "Our 7-Pack Reusable Cotton Pads are the perfect sustainable alternative to cotton pads that are thrown away after a single use. These soft, gentle pads can be reused and washed regularly, and are perfect for applying our Watermelon Pore-Tight Toner. Includes a recyclable organic cotton drawstring pouch with an elastic to be used for washing and travel."
   },
   {
@@ -448,6 +485,7 @@
     "display_price": "$8",
     "price": "8",
     "size": "Free-size",
+    "type": "Beauty Care",
     "discription": "Up your double cleansing game and keep it cute with the new blueberry inspired spa headband. This headband is made with a recyclable cotton terry material, and comes with adjustable bunny style ears that keeps wet or dry hair pushed back while you do your skin-care routine.",
     "fruit": "Blueberry"
   },
@@ -459,6 +497,7 @@
     "display_price": "$12",
     "price": "12",
     "size": "8.5 X 6.5 in",
+    "type": "Beauty Care",
     "discription": "Take your favorite products on the go with this *super cute* purple glow mesh zip!"
   },
   {
@@ -469,6 +508,7 @@
     "display_price": "$12",
     "price": "12",
     "size": "8.5 X 6.5 in",
+    "type": "Beauty Care",
     "discription": "Take your favorite products on the go with this *super cute* purple glow mesh zip!"
   },
   {
@@ -479,6 +519,7 @@
     "display_price": "$12",
     "price": "12",
     "size": "8.5 X 6.5 in",
+    "type": "Beauty Care",
     "discription": "Take your favorite products on the go with this *super cute* purple glow mesh zip!"
   },
   {
@@ -489,6 +530,7 @@
     "display_price": "$12",
     "price": "12",
     "size": "8.5 X 6.5 in",
+    "type": "Beauty Care",
     "discription": "Take your favorite products on the go with this *super cute* purple glow mesh zip!"
   },
   {
@@ -499,6 +541,7 @@
     "display_price": "$12",
     "price": "12",
     "size": "8.5 X 6.5 in",
+    "type": "Beauty Care",
     "discription": "Take your favorite products on the go with this *super cute* purple glow mesh zip!"
   },
   {
@@ -509,6 +552,7 @@
     "display_price": "$35",
     "price": "35",
     "size": "S/M/L/XL/2XL/3XL",
+    "type": "Beauty Care",
     "discription": "Your go-to closet staple is finally here! Add a pop of color to your wardrobe with our new limited-edition Always Glowing Tie Dye T-Shirt. This one-of-a-kind closet essential & oversized fit makes it perfect for bumming it indoors or sunny days out. Pair it with biker shorts or leggings for that instant retro feel wherever you glow."
   },
   {
@@ -519,6 +563,7 @@
     "display_price": "$20",
     "price": "20",
     "size": "Free Size",
+    "type": "Beauty Care",
     "discription": "Upgrade your usual weekend-warrior wear while showing off your Glow Gang love. This baseball cap offers both style and shade in spades."
   },
   {
@@ -529,6 +574,7 @@
     "display_price": "$40",
     "price": "40",
     "size": "S/M/L/XL/2XL/3XL",
+    "type": "Beauty Care",
     "discription": "Say hello to your newest closet essential! Rock your glow in style with this ultra-soft, limited edition, Avocado-inspired crewneck. This go-to essential comes in a cute bright green and features an embroidered avocado design--perfect for cozying up on the couch or a light stroll on a chilly day out.",
     "fruit": "Avacado"
   },
@@ -540,6 +586,7 @@
     "display_price": "$22",
     "price": "22",
     "size": "Free size",
+    "type": "Beauty Care",
     "discription": "Take your glow essentials to go with this exclusive Glow Gang Fanny Pack. Lightweight, hands-free & ready to go when you are. "
   },
   {
@@ -550,6 +597,7 @@
     "display_price": "$25",
     "price": "25",
     "size": "Free size",
+    "type": "Beauty Care",
     "discription": "Bring style and comfort to your bathroom with the Glow Time Bath Mat. Place in front of the bathtub and step foot on this plush, bath essential. It’s Glow Time."
   }
 ]
