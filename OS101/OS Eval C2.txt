@@ -1,0 +1,71 @@
+Q1  a)What do you know about client server architecture?
+    b)What is the difference between DNS and IP address?
+
+    a) A model wherein the server is the host, it delivers and also manges most of the services and resources
+    that are requested by the client is client-server architecture or networking computing model.
+    Client server architecture is a computing model in which the server hosts, delivers, and manages most of
+    the resources and services requested by the client. Also known as client server network as all requests and
+    services are delivered over by a network.
+
+    Frequently, client server architecture is arranged in a way that clients are often situated at workstations
+    or on personal computers, while servers are located elsewhere on the network, usually on more powerful machines.
+    Such a model is especially beneficial when the clients and server perform routine tasks.
+
+    b)  -Ihe IP address is the actual location where the entities are located, whereas DNS only gives the
+         entity a Name, based on some standard rules.
+        -Also, the DNS assigns an alphanumerical name to an entity that is easily remembered by the users,
+         and the IP assigns a numerical value to the network entity.
+
+Q2  What is CAP theorem, discuss a scenario where CAP theorem helps you choose a technology over the other or helps
+    you make a design decision.
+
+    The Consistency, Availability & Partition Tolerance (CAP) Theorem is comprised of three components as they relate to
+    distributed data stores:
+        a.  Consistency- receive the most recent write or an error.
+        b.  Availability- contain data, but it might not be the most recent.
+        c.  Partition tolerance- The system continues to operate despite network failures
+
+    Ihe CAP theorem maintains that when a distributed database experiences a network failure, you can provide either
+    consistency or availability.
+
+    In the theorem, partition tolerance is a must. The assumption is that the system operates on a distributed data store so
+    the system, by nature, operates with network partitions. Network failures will happen, so to offer any kind of reliable
+    service, partition tolerance is necessary.
+
+    That leaves a decision between the other two, C and A. When a network failure happens, one can choose to guarantee
+    consistency or availability:
+        a.  High consistency comes at the cost of lower availability.
+        b.  High availability comes at the cost of lower consistency.
+        c.  Consistency in CAP is different than that of ACID. Consistency in CAP means having the most up-to-date
+            information. (ACID refers to a different database event. In ACID, consistency means any new transaction
+            to the database won’t corrupt the database.)
+
+Q3  What are SOLID principles? Explain with examples wherever possible.
+
+    The 5 principles of SOLID are:
+    a.  Single-responsibility principle - states that a class should only have one responsibility. Furthermore, it
+        should only have one reason to change. Its benefits are as follows:
+            Testing – A class with one responsibility will less number of test cases.
+            Lower coupling – Less functionality in a single class will have lesser dependencies.
+            Organization – Smaller, well-organized classes are easier to search than monolithic ones.
+
+    b.  Open-closed principle - state that classes should be open for extension but closed for modification. In doing
+        so, modifying existing code and causing potential new bugs is minimalised with one exception to the rule is
+        when fixing bugs in existing code.
+
+    c.  Liskov substitution principle - states that if class A is a subtype of class B, we should be able to replace
+        B with A without disrupting the behavior of our program.
+
+    d.  Interface segregation principle - states that larger interfaces should be split into smaller ones. By doing so, we
+        can ensure that implementing classes only need to be concerned about the methods that are of interest to them.
+
+    e.  Dependency inversion principle - refers to the decoupling of software modules. This way, instead of high-level
+        modules depending on low-level modules, both will depend on abstractions.
+
+Q4  In the following diagram (it intentionally contains pseudo code) There is an interface DataManager with two functions.
+    The three classes implement this interface and provide implementation to the read and write methods.
+    The write method throws an exception in the InMemoryRealmManager class because it doesn’t need the write() method.
+
+    A.  Which of the design principles: solid principles or clean code pattern is being violated in this scenario.
+    B.  Rectify/fix it with the best practices and also demonstrate the corresponding pseudo code.
+

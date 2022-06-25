@@ -1,0 +1,44 @@
+Q1. Suppose you are creating a program and you encounter a situation where you
+have an unsorted array in which you have to apply binary search.But we know BS
+can be applied only on the sorted array.
+
+You have been given the code for BinarySearch class as this not having the sort()
+
+    public class BinarySearch {
+    public int binarySearch(int[] arr,int target){
+    // sort the array first using sort()
+    /* binary search Algorithm
+    * no need to implement that
+    * Assume it is here
+    */
+    }
+    }
+You have an end-user with Runner class as shown in the code below he wants to have a
+flexibility of choosing any sorting algorithm (i.e. making it loosely coupled ) by just changing
+one line from this class as shown in the code below:
+
+    public class SearchingRunner {
+    public static void main(String[] args) {
+    int[] arr={1,3,2}; //unsorted array
+    int target=3;
+    BinarySearch bs1=new BinarySearch( /*use bubble sort algorithm*/);
+    bs1.binarySearch(arr,target);
+    BinarySearch bs2=new BinarySearch( /*use selection sort algorithm*/);
+    bs2.binarySearch(arr,target);
+    BinarySearch bs3=new BinarySearch( /*use another algorithm*/);
+    bs3.binarySearch(arr,target);
+    }
+    }
+
+Output:
+
+Array sorted using bubble sort
+Array sorted using selection sort
+Array sorted using bubble sort
+Write the name of the abstractions, classes and method signatures. No need to write the
+code for their body.
+No need to completely implement any algorithm, just print “Array is sorted using
+YOUR_ALGO”.
+
+
+Q2. Explain the Liscov’s Substitution and dependency Inversion principle with an example..

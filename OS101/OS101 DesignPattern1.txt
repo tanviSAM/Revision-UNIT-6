@@ -1,0 +1,14 @@
+Q.1 There is a BNP(bank note press) that needs three different sizes of
+    papers s1, s2 and s3 to print money of the denominations 10, 100 and 1000
+    respectively. The BNP gives orders to the paper manufacturer by mentioning
+    one of the denominations, and the manufacturer supplies the corresponding
+    size of paper.
+    E.g. input ->100 ⇒ output-> s2 Implement this scenario using one of the
+    design patterns.
+
+
+Q.2 Explain Singleton Design Pattern with suitable examples.
+
+
+Q.3 What is Eager initialization & Lazy initialization.
+
