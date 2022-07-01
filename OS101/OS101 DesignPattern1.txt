@@ -8,7 +8,21 @@ Q.1 There is a BNP(bank note press) that needs three different sizes of
 
 
 Q.2 Explain Singleton Design Pattern with suitable examples.
-
+    Singleton pattern is one of the simplest design patterns in Java. This type of design
+pattern comes under creational pattern as this pattern provides one of the best ways to
+create an object.
+    This pattern involves a single class which is responsible to create an object while making
+sure that only single object gets created. This class provides a way to access its only object
+which can be accessed directly without need to instantiate the object of the class.
 
 Q.3 What is Eager initialization & Lazy initialization.
+The advantages and disadvantages of using Lazy initialization vs Eager initialization.
+a:  Lazy initializing an object can save on resources (memory and computation mostly).
+a:  With lazy initializing you can defer the instantiation of the object. For example you can
+    instantiate a large object or collection after some intensive processing which can help
+    improve overall performance by free up resources.
+d:  It's a bit overkill if the object that you are lazy loading is small and you know that you
+    will need to use it soon after it has been defined.
+d:  Can waste lots of resources if managed incorrectly such as wrapping many small objects
+    instead of managing them in a Lazy enumerable object or statically.
 

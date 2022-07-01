@@ -1,6 +1,18 @@
 Networking, Distributed Systems and Security
 
-Q1.Explain 3-Tier Architecture
+Q1.Explain 3-Tier Architecture.
+The 3-tier architecture contains one more layer between the client and the server. In this architecture, there is no
+direct communication between client and server. Mainly, the 3-tier is used for large applications on the web. The
+features of 3-tier architecture are data backup, recovery, security, and concurrency control.
+
+Layers
+    The 3-tier architecture consists of the three layers as follows −
+    a.  Presentation layer − This layer is also called the client layer. The front-end layer consists of a user interface.
+        The main purpose is to communicate with the application layer.
+    b.  Application layer − This layer is also called the business logic layer. It acts as a middle layer between the client
+        and the database server which are used to exchange partially processed data.
+    c.  Database layer − In this layer the data or information is stored. This layer performs operations like insert, update
+        and delete to connect with the database.
 
 
 Q2. Explain Basic Terminologies
@@ -34,4 +46,70 @@ Q3.What is CAP Theorem?
             to the database won’t corrupt the database.)
 
 Q4. What are Public and Private Keys? How are they used in Cryptography?
+
+Private Key
+        The private key is used in both encryption as well as decryption. This key is shared between the sender and receiver of
+    the encrypted sensitive information. The private key is also called "symmetric" because it is shared by both parties.
+    Private key cryptography is faster than public-key cryptography mechanism.
+        A private key is generally a lengthy, non-guessable sequence of bits created randomly or pseudo-randomly. The complexity
+    and length of a private key define how easy it is for an attacker to carry out a bruteforce attack, in which they test
+    out several keys until they find the appropriate one.
+
+Public Key
+        Asymmetric cryptography, often known as public-key cryptography, is a type of encryption that employs pairs of keys.
+    A public key (which may be known to others) and a private key (which may not be known to anyone except the owner) make
+    up each pair. Cryptographic techniques based on mathematical problems known as one-way functions are used to generate
+    such key pairs. A private key should be kept secret for effective security; a public key can be freely circulated
+    without jeopardizing security.
+        In such a system, anybody can encrypt a message using the intended receiver's public key, but only the receiver's
+    private key can decode the message. This allows a server application to produce a cryptographic key for compatible
+    symmetric-key cryptography, then encrypt that freshly generated symmetric key using a client's freely disclosed public
+    key.
+        A public-key encryption system's most apparent application is for encrypting communication to guarantee secrecy – a
+    message that a sender encrypts using the recipient's public key and can only be decoded by the recipient's associated
+    private key.
+
+Cryptography
+    Cryptography is technique of securing information and communications through use of codes so that only those person for
+whom the information is intended can understand it and process it. Thus preventing unauthorized access to information.
+The prefix “crypt” means “hidden” and suffix graphy means “writing”.
+    In Cryptography the techniques which are use to protect information are obtained from mathematical concepts and a set
+of rule based calculations known as algorithms to convert messages in ways that make it hard to decode it. These
+algorithms are used for cryptographic key generation, digital signing, verification to protect data privacy, web
+browsing on internet and to protect confidential transactions such as credit card and debit card transactions.
+
+Techniques used For Cryptography:
+    In today’s age of computers cryptography is often associated with the process where an ordinary plain text is
+converted to cipher text which is the text made such that intended receiver of the text can only decode it and hence
+this process is known as encryption. The process of conversion of cipher text to plain text this is known as decryption.
+
+Features Of Cryptography are as follows:
+
+Confidentiality:
+    Information can only be accessed by the person for whom it is intended and no other person except him can access it.
+Integrity:
+    Information cannot be modified in storage or transition between sender and intended receiver without any addition
+    to information being detected.
+Non-repudiation:
+    The creator/sender of information cannot deny his intention to send information at later stage.
+Authentication:
+    The identities of sender and receiver are confirmed. As well as destination/origin of information is confirmed.
+Types Of Cryptography:
+In general there are three types Of cryptography:
+
+Symmetric Key Cryptography:
+    It is an encryption system where the sender and receiver of message use a single common key to encrypt and
+    decrypt messages. Symmetric Key Systems are faster and simpler but the problem is that sender and receiver have
+    to somehow exchange key in a secure manner. The most popular symmetric key cryptography system is Data
+    Encryption System(DES).
+Hash Functions:
+    There is no usage of any key in this algorithm. A hash value with fixed length is calculated as per the plain
+    text which makes it impossible for contents of plain text to be recovered. Many operating systems use hash
+    functions to encrypt passwords.
+Asymmetric Key Cryptography:
+    Under this system a pair of keys is used to encrypt and decrypt information. A public key is used for
+    encryption and a private key is used for decryption. Public key and Private Key are different. Even if
+    the public key is known by everyone the intended receiver can only decode it because he alone knows
+    the private key.
+
 

@@ -41,4 +41,19 @@ No need to completely implement any algorithm, just print “Array is sorted usi
 YOUR_ALGO”.
 
 
-Q2. Explain the Liscov’s Substitution and dependency Inversion principle with an example..
+Q2. Explain the Liscov’s Substitution and dependency Inversion principle with an example.
+
+The principle defines that objects of a superclass shall be replaceable with objects of its
+subclasses without breaking the application. That requires the objects of your subclasses to
+behave in the same way as the objects of your superclass. You can achieve that by following
+a few rules, which are pretty similar to the design by contract concept defined by Bertrand
+Meyer.
+
+The Liskov Substitution Principle is the third of Robert C. Martin’s SOLID design principles.
+It extends the Open/Closed principle and enables you to replace objects of a parent class
+with objects of a subclass without breaking the application. This requires all subclasses to
+behave in the same way as the parent class. To achieve that, your subclasses need to follow
+these rules:
+a.  Don’t implement any stricter validation rules on input parameters than implemented by the
+    parent class.
+b.  Apply at the least the same rules to all output parameters as applied by the parent class.
